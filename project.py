@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Title for the Projects page
-st.title("Projects 🚀")
+st.title("Projects 🚀",anchor=False)
 
 # Define project details
 projects = [
@@ -97,7 +97,7 @@ projects = [
 
 # Display each project
 for project in projects:
-    st.subheader(project["title"])
+    st.subheader(project["title"],anchor=False)
     st.write(project["description"])
     st.write(f"**Technologies Used**: {project['tech']}")
     st.image(project["image"] ,width=600)  # Adjust width as needed
