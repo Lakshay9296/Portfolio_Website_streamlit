@@ -22,3 +22,12 @@ pages.run()
 
 st.logo("assets/logo.png")
 st.sidebar.text("Made by Lakshay")
+
+
+hide_st_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_st_style, unsafe_allow_html=True)
