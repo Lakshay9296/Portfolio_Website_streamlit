@@ -76,7 +76,7 @@ projects = [
         "description": "A personal portfolio website built using Streamlit, showcasing my projects, skills, and contact information.",
         "tech": "Python, Streamlit",
         "image": "assets/port.png",  # Replace with the path to your project image
-        "link": "https://lakshaybda.streamlit.app/"  # Replace with the URL to the project
+        "link": "https://github.com/Lakshay9296/Portfolio_Website_streamlit"  # Replace with the URL to the project
     },
     # Web Development Projects
     {
